@@ -1,0 +1,126 @@
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header {
+    padding-top: 32px;
+    border-bottom: none;
+  }
+  .header_input {
+    display: none;
+  }
+  .header-2 {
+    background-position: -303px;
+  }
+  .header-3 {
+    background-position: -748px -5px;
+  }
+  .logo__img {
+    width: 99px;
+  }
+  .menu-mob {
+    display: block;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+  .menu_link {
+    display: none;
+  }
+  .title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+  }
+  .title-2 {
+    text-align: center;
+    font-size: 48px;
+    margin-top: 100px;
+  }
+  .top {
+    background-position: -133px;
+  }
+  .top_text {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  .top_link {
+    font-size: 14px;
+  }
+  .top_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .heading {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .for {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+  .for_item {
+    grid-column: 1/-1;
+    height: 375px;
+    font-size: 28px;
+  }
+  .for_item_big {
+    height: 243px;
+  }
+  .product_box_item {
+    width: 342px;
+  }
+  .product_name {
+    font-size: 18px;
+  }
+  .product_price {
+    font-size: 18px;
+  }
+  .footer {
+    padding-bottom: 32px;
+  }
+  .footer_content {
+    justify-content: center;
+    gap: 34px;
+  }
+  .footer_info {
+    gap: 100px;
+  }
+  .catalog {
+    font-size: 24px;
+  }
+  .link-box {
+    padding-top: 32px;
+  }
+  .cat-link {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .cart_stol {
+    font-size: 18px;
+  }
+  .cart_stol_text {
+    font-size: 12px;
+  }
+  .cart_stol_money {
+    font-size: 12px;
+  }
+  .cart_menu {
+    display: none;
+  }
+  .cart_button {
+    font-size: 12px;
+    width: 166px;
+  }
+  .mob-logo {
+    display: block;
+  }
+}/*# sourceMappingURL=_mobile.css.map */

@@ -1,0 +1,185 @@
+@media (max-width: 767px) {
+
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        padding-top: 32px;
+        border-bottom: none;
+
+        &__input {
+            display: none;
+        }
+    }
+
+    .top_cart {
+        background-position: -748px -5px;
+        background-size: auto;
+    }
+
+    .logo {
+        &__img {
+            width: 99px;
+        }
+    }
+
+    .menu {
+        &-mob {
+            display: block;
+            display: flex;
+            align-items: center;
+            gap: 32px;
+
+        }
+
+        &__link:hover {
+            text-decoration: underline;
+        }
+
+        &__link {
+            display: none;
+        }
+    }
+
+    .title {
+        text-align: center;
+        font-size: 48px;
+        font-weight: 600;
+
+        &-catalog {
+            text-align: center;
+            font-size: 48px;
+            margin-top: -26px;
+        }
+
+        &-cart {
+            text-align: center;
+            font-size: 48px;
+            margin-top: 96px;
+        }
+    }
+
+
+    .top {
+        background-size: auto;
+
+        &_catalog {
+            background-position: -303px;
+
+        }
+
+        &__text {
+            text-align: center;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 32px
+        }
+
+        &__link {
+            font-size: 14px;
+        }
+
+        &__content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .heading {
+        color: #000;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .for {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+
+        &_item {
+            grid-column: 1 / -1;
+            height: 375px;
+            font-size: 28px;
+        }
+
+        &_item_big {
+            height: 243px;
+        }
+    }
+
+    .product {
+        &_box_item {
+            width: 342px;
+        }
+
+        &_name {
+            font-size: 18px;
+        }
+
+        &_price {
+            font-size: 18px;
+        }
+    }
+
+    .footer {
+        padding-bottom: 32px;
+
+        &_content {
+            justify-content: center;
+            gap: 34px;
+        }
+
+        &_info {
+            gap: 100px;
+        }
+    }
+
+    .catalog {
+        font-size: 24px;
+    }
+
+    .link-box {
+        padding-top: 32px;
+    }
+
+    .cat-link {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .cart {
+        &_stol {
+            font-size: 18px;
+        }
+
+        &_stol_text {
+            font-size: 12px;
+        }
+
+        &_stol_money {
+            font-size: 12px;
+        }
+
+        &_menu {
+            display: none;
+        }
+
+        &_button {
+            font-size: 12px;
+            width: 166px;
+        }
+    }
+
+    .mob-logo {
+        display: block;
+    }
+
+    .link-box {
+        padding-bottom: 32px;
+    }
+}
